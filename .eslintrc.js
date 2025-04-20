@@ -14,6 +14,11 @@ module.exports = {
       'error',
       {
         endOfLine: 'auto',
+        singleQuote: true, // Enforce single quotes, if preferred
+        bracketSpacing: true, // Add spaces between brackets in object literals
+        jsxSingleQuote: true, // Use single quotes in JSX
+        trailingComma: 'es5', // Add trailing commas where valid in ES5 (objects, arrays)
+        arrowParens: 'always', // Always include parentheses around arrow function arguments
       },
     ],
     'sort-imports': 'off',
@@ -36,6 +41,7 @@ module.exports = {
         ],
       },
     ],
+    'tailwindcss/classnames-order': 'warn', // Enforce Tailwind class order or change to 'off' to disable
   },
   settings: {
     tailwindcss: {

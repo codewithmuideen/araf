@@ -1,5 +1,14 @@
 import { Icons } from '@/components/icons';
 
+const tech = {
+  nextjs: 'Next.js',
+  tailwind: 'Tailwind',
+  typescript: 'TypeScript',
+  nestjs: 'Nest.js',
+  prisma: 'Prisma',
+  wordpress: 'WordPress',
+};
+
 export const links = [
   {
     name: 'Home',
@@ -29,13 +38,7 @@ export const projectsData = [
     title: 'ABS Construction',
     description:
       'ABS Construction focuses on providing lasting solutions for the municipal, industrial and commercial markets across the Southeast.',
-    technologies: [
-      'Next.js',
-      'Tailwind',
-      'Shadcn/ui',
-      'Next-auth',
-      'Prisma',
-    ],
+    technologies: [tech.nextjs, tech.tailwind, 'Shadcn/ui', 'Next-auth', tech.prisma],
     links: {
       preview: 'https://abscon-inc.com/',
       github: 'https://github.com/abscon-inc',
@@ -46,7 +49,7 @@ export const projectsData = [
     title: 'OlamiTobi Technologies',
     description:
       'OlamiTobi Technologies is a dynamic company specializing in mobile and web application development, project management, and training services.',
-    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
+    technologies: [tech.nextjs, tech.typescript, tech.nestjs, tech.tailwind, tech.prisma],
     links: {
       preview: 'https://royeweb.vercel.app/',
       github: 'https://github.com/royeweb',
@@ -57,7 +60,7 @@ export const projectsData = [
     title: 'Innovarie',
     description:
       'Validate and refine your business ideas with Innovarie’s AI-driven insights. Get data-backed market demand analysis, competitive landscape insights, and financial feasibility reports.',
-    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
+    technologies: [tech.nextjs, tech.typescript, tech.nestjs, tech.tailwind, tech.prisma],
     links: {
       preview: 'https://innovarie.com/',
       github: 'https://github.com/innovarie',
@@ -68,7 +71,7 @@ export const projectsData = [
     title: 'TechTactFin',
     description:
       'TechTactFin, cybersecurity, financial institutions, blockchain, Secure Multi-Party Computation, SMPC, quantum-resistant encryption, AI-driven threat detection, data security, compliance, financial transactions',
-    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
+    technologies: [tech.nextjs, tech.typescript, tech.nestjs, tech.tailwind, tech.prisma],
     links: {
       preview: 'https://techtactfin.com/',
       github: 'https://github.com/techtactfin',
@@ -79,7 +82,7 @@ export const projectsData = [
     title: 'Fincompitium',
     description:
       'FinCompitium is a cutting-edge financial platform engineered to revolutionize the way individuals and businesses interact with finance. Powered by advanced AI-driven intelligence, FinCompitium offers real-time insights, predictive analytics, and smart automation tools.',
-    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
+    technologies: [tech.nextjs, tech.typescript, tech.nestjs, tech.tailwind, tech.prisma],
     links: {
       preview: 'https://fincompitium.com/',
       github: 'https://github.com/fincompitium',
@@ -90,7 +93,7 @@ export const projectsData = [
     title: 'CustomDesignX',
     description:
       'At CustomDesignX, we believe that everyday items should reflect your personality, values, and creativity. We offer beautifully custom-designed mugs, socks, and greeting cards perfect for any occasion.',
-    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'WordPress'],
+    technologies: [tech.nextjs, tech.typescript, tech.nestjs, tech.tailwind, tech.wordpress],
     links: {
       preview: 'https://customdesignx.com/',
       github: 'https://github.com/customdesignx',
@@ -110,7 +113,7 @@ export const experiencesData = [
       'CSS',
       'JavaScript',
       'React',
-      'Next.js',
+      tech.nextjs,
       'WordPress',
     ],
   },
@@ -120,7 +123,7 @@ export const experiencesData = [
     description:
       'At MacTech Nigeria, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience advanced my proficiency in Next.js and teamwork.',
     period: '2023 - 2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
+    technologies: [tech.nextjs, 'React', tech.typescript, tech.tailwind],
   },
   {
     title: 'Graphic Designer',

@@ -11,25 +11,29 @@ export const Projects = () => {
   const { ref } = useSectionInView('Projects');
 
   return (
-    <section ref={ref} id="projects" className="my-10 scroll-mt-28 md:mb-20">
-      <motion.div
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        transition={{
-          delay: 0.175,
-        }}
-        viewport={{
-          once: true,
-        }}
-      >
-        <SectionHeading
-          heading="My Projects"
-          content="Projects I worked on. Each of them containing its own case study."
-        />
-      </motion.div>
+    <section
+    ref={ref}
+    id="projects"
+    className="my-10 scroll-mt-28 md:mb-20"
+  >
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        delay: 0.175,
+      }}
+      viewport={{
+        once: true,
+      }}
+    >
+      <SectionHeading
+        heading="My Projects"
+        content="Projects I worked on. Each of them contains its own case study."
+      />
+    </motion.div>
 
       {/* Updated Layout */}
       <div
