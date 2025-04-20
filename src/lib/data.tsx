@@ -29,7 +29,13 @@ export const projectsData = [
     title: 'ABS Construction',
     description:
       'ABS Construction focuses on providing lasting solutions for the municipal, industrial and commercial markets across the Southeast.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+    technologies: [
+      'Next.js',
+      'Tailwind',
+      'Shadcn/ui',
+      'Next-auth',
+      'Prisma',
+    ],
     links: {
       preview: 'https://abscon-inc.com/',
       github: 'https://github.com/abscon-inc',
@@ -99,7 +105,14 @@ export const experiencesData = [
     description:
       'At Omojowo Technologies, I focused on developing WordPress plugins and managing website content and settings. I also contributed to building dynamic and responsive web applications using React and Next.js.',
     period: '2024 - present',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'WordPress'],
+    technologies: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Next.js',
+      'WordPress',
+    ],
   },
   {
     title: 'Website Developer',
