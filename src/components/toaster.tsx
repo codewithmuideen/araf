@@ -12,7 +12,7 @@ const Toaster = ({ ...props }: ToasterProps) => {
     <Sonner
       style={{ fontFamily: 'Montserrat, sans-serif' }}
       theme={theme as ToasterProps['theme']}
-      className="toaster group"
+      className='toaster group'
       toastOptions={{
         classNames: {
           toast:

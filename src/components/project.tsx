@@ -33,32 +33,32 @@ export const Project = ({ project, index }: TProps) => {
   return (
     <motion.div
       variants={fadeInAnimationVariants}
-      initial="initial"
-      whileInView="animate"
+      initial='initial'
+      whileInView='animate'
       viewport={{ once: true }}
       custom={index}
-      className="flex flex-col rounded border p-5 w-full"
+      className='flex flex-col rounded border p-5 w-full'
       style={{ fontFamily: 'Montserrat, sans-serif' }}
     >
       <Link
         href={links.github}
         aria-label={title}
-        target="_blank"
-        className="overflow-hidden rounded"
+        target='_blank'
+        className='overflow-hidden rounded'
       >
         <Image
           src={image}
           alt={title}
           height={390}
           width={600}
-          className="rounded transition-transform hover:scale-105"
+          className='rounded transition-transform hover:scale-105'
         />
       </Link>
-      <h3 className="mt-3 text-xl font-medium">{title}</h3>
-      <p className="text-muted-foreground mb-2 mt-1">{description}</p>
-      <div className="flex flex-wrap gap-2">
+      <h3 className='mt-3 text-xl font-medium'>{title}</h3>
+      <p className='text-muted-foreground mb-2 mt-1'>{description}</p>
+      <div className='flex flex-wrap gap-2'>
         {technologies.map((tech) => (
-          <span className="rounded-full border px-3 py-1 text-sm" key={tech}>
+          <span className='rounded-full border px-3 py-1 text-sm' key={tech}>
             {tech}
           </span>
         ))}

@@ -13,8 +13,8 @@ export const Projects = () => {
   return (
     <section
     ref={ref}
-    id="projects"
-    className="my-10 scroll-mt-28 md:mb-20"
+    id='projects'
+    className='my-10 scroll-mt-28 md:mb-20'
   >
     <motion.div
       initial={{ opacity: 0, y: 100 }}
@@ -30,14 +30,14 @@ export const Projects = () => {
       }}
     >
       <SectionHeading
-        heading="My Projects"
-        content="Projects I worked on. Each of them contains its own case study."
+        heading='My Projects'
+        content='Projects I worked on. Each of them contains its own case study.'
       />
     </motion.div>
 
       {/* Updated Layout */}
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10"
+        className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-10'
         style={{ fontFamily: 'Montserrat, sans-serif' }}
       >
         {projectsData.map((project, index) => (

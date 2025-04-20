@@ -10,13 +10,13 @@ export const ThemeToggle = ({ className }: ButtonProps) => {
   return (
     <Button
       className={className}
-      variant="outline"
-      size="icon"
-      aria-label="theme toggle"
+      variant='outline'
+      size='icon'
+      aria-label='theme toggle'
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
-      <Icons.sun className="w-5 h-5 dark:hidden" />
-      <Icons.moon className="w-5 h-5 hidden dark:block" />
+      <Icons.sun className='w-5 h-5 dark:hidden' />
+      <Icons.moon className='w-5 h-5 hidden dark:block' />
     </Button>
   );
 };

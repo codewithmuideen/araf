@@ -22,14 +22,14 @@ export const Skills = () => {
   return (
     <div
       style={{ fontFamily: 'Montserrat, sans-serif' }}
-      className="mt-10 flex w-full flex-wrap justify-between gap-10 px-5 sm:justify-center sm:px-0 md:mt-14 lg:justify-between"
+      className='mt-10 flex w-full flex-wrap justify-between gap-10 px-5 sm:justify-center sm:px-0 md:mt-14 lg:justify-between'
     >
       {skillsData.map(({ icon }, index) => (
         <motion.div
           key={index}
           variants={fadeInAnimationVariants}
-          initial="initial"
-          whileInView="animate"
+          initial='initial'
+          whileInView='animate'
           viewport={{
             once: true,
           }}
