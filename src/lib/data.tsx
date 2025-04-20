@@ -34,7 +34,7 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/web44.png',
+    image: '/images/web44.PNG',
     title: 'ABS Construction',
     description:
       'ABS Construction focuses on providing lasting solutions for the municipal, industrial and commercial markets across the Southeast.',
@@ -45,7 +45,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/web55.png',
+    image: '/images/web55.PNG',
     title: 'OlamiTobi Technologies',
     description:
       'OlamiTobi Technologies is a dynamic company specializing in mobile and web application development, project management, and training services.',
@@ -56,7 +56,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/web66.png',
+    image: '/images/web66.PNG',
     title: 'Innovarie',
     description:
       'Validate and refine your business ideas with Innovarie’s AI-driven insights. Get data-backed market demand analysis, competitive landscape insights, and financial feasibility reports.',
@@ -67,7 +67,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/web00.png',
+    image: '/images/web00.PNG',
     title: 'TechTactFin',
     description:
       'TechTactFin, cybersecurity, financial institutions, blockchain, Secure Multi-Party Computation, SMPC, quantum-resistant encryption, AI-driven threat detection, data security, compliance, financial transactions',
@@ -78,7 +78,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/web11.png',
+    image: '/images/web11.PNG',
     title: 'Fincompitium',
     description:
       'FinCompitium is a cutting-edge financial platform engineered to revolutionize the way individuals and businesses interact with finance. Powered by advanced AI-driven intelligence, FinCompitium offers real-time insights, predictive analytics, and smart automation tools.',
@@ -89,7 +89,7 @@ export const projectsData = [
     },
   },
   {
-    image: '/images/web22.png',
+    image: '/images/web22.PNG',
     title: 'CustomDesignX',
     description:
       'At CustomDesignX, we believe that everyday items should reflect your personality, values, and creativity. We offer beautifully custom-designed mugs, socks, and greeting cards perfect for any occasion.',
