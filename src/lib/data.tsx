@@ -32,32 +32,29 @@ export const projectsData = [
     technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
     links: {
       preview: 'https://abscon-inc.com/',
-      github: 'https://abscon-inc.com/',
-      githubApi: 'https://abscon-inc.com/',
+      github: 'https://github.com/abscon-inc',
     },
   },
   {
     image: '/images/web55.png',
     title: 'OlamiTobi Technologies',
     description:
-      'OlamiTobi Technologies is a dynamic company specializing in mobile and web application development, project management, and training services',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'OlamiTobi Technologies is a dynamic company specializing in mobile and web application development, project management, and training services.',
+    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
     links: {
       preview: 'https://royeweb.vercel.app/',
-      github: 'https://royeweb.vercel.app/',
-      githubApi: 'https://royeweb.vercel.app/',
+      github: 'https://github.com/royeweb',
     },
   },
   {
     image: '/images/web66.png',
     title: 'Innovarie',
     description:
-      'Validate and refine your business ideas with Innovarie’s AI-driven insights. Get data-backed market demand analysis, competitive landscape insights, and financial feasibility reports. Empower your entrepreneurial journey today',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'Validate and refine your business ideas with Innovarie’s AI-driven insights. Get data-backed market demand analysis, competitive landscape insights, and financial feasibility reports.',
+    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
     links: {
       preview: 'https://innovarie.com/',
-      github: 'https://innovarie.com/',
-      githubApi: 'https://innovarie.com/',
+      github: 'https://github.com/innovarie',
     },
   },
   {
@@ -65,41 +62,32 @@ export const projectsData = [
     title: 'TechTactFin',
     description:
       'TechTactFin, cybersecurity, financial institutions, blockchain, Secure Multi-Party Computation, SMPC, quantum-resistant encryption, AI-driven threat detection, data security, compliance, financial transactions',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
     links: {
       preview: 'https://techtactfin.com/',
-      github: 'https://techtactfin.com/',
-      githubApi: 'https://techtactfin.com/',
+      github: 'https://github.com/techtactfin',
     },
   },
   {
     image: '/images/web11.png',
     title: 'Fincompitium',
     description:
-      'FinCompitium is a cutting-edge financial platform engineered to revolutionize the way individuals and businesses interact with finance. Powered by advanced AI-driven intelligence, FinCompitium offers real-time insights, predictive analytics, and smart automation tools that streamline decision-making, optimize investments, and enhance financial planning.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'FinCompitium is a cutting-edge financial platform engineered to revolutionize the way individuals and businesses interact with finance. Powered by advanced AI-driven intelligence, FinCompitium offers real-time insights, predictive analytics, and smart automation tools.',
+    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
     links: {
       preview: 'https://fincompitium.com/',
-      github: 'https://fincompitium.com/',
-      githubApi: 'https://fincompitium.com/',
+      github: 'https://github.com/fincompitium',
     },
   },
   {
     image: '/images/web22.png',
     title: 'CustomDesignX',
     description:
-      'At CustomDesignX, we believe that everyday items should reflect your personality, values, and creativity. That’s why we offer beautifully custom-designed mugs, socks, and greeting cards that are perfect for any occasion — from birthdays and weddings to corporate branding and personal keepsakes.',
-    technologies: [
-      'Next.js',
-      'TypeScript',
-      ' Nest.js',
-      'Tailwind',
-      'Wordpress',
-    ],
+      'At CustomDesignX, we believe that everyday items should reflect your personality, values, and creativity. We offer beautifully custom-designed mugs, socks, and greeting cards perfect for any occasion.',
+    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'WordPress'],
     links: {
       preview: 'https://customdesignx.com/',
-      github: 'https://customdesignx.com/',
-      githubApi: 'https://customdesignx.com/',
+      github: 'https://github.com/customdesignx',
     },
   },
 ] as const;
@@ -109,15 +97,15 @@ export const experiencesData = [
     title: 'Web Developer',
     company: 'Omojowo Technologies',
     description:
-      'At Omojowo Technologies, I focused on two key areas: developing WordPress plugins and managing website content, plugins, and settings. In addition to this, I contributed to building dynamic and responsive web applications using React and Next.js, enhancing both user experience and performance., plugins, and settings.',
+      'At Omojowo Technologies, I focused on developing WordPress plugins and managing website content and settings. I also contributed to building dynamic and responsive web applications using React and Next.js.',
     period: '2024 - present',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Nextjs', 'Wordpress'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'WordPress'],
   },
   {
     title: 'Website Developer',
     company: 'MacTech Nigeria',
     description:
-      'At MacTech Nigeria, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
+      'At MacTech Nigeria, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience advanced my proficiency in Next.js and teamwork.',
     period: '2023 - 2024',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
   },
@@ -125,7 +113,7 @@ export const experiencesData = [
     title: 'Graphic Designer',
     company: 'KAO Concepts',
     description:
-      'As a Graphic Designer, I specialized in creating visually compelling designs using Figma and also contributed to website development projects using Next.js integrated with Sanity CMS. I independently managed projects from concept to completion, ensuring each design met client expectations and effectively communicated their brand identity.',
+      'As a Graphic Designer, I created compelling designs using Figma and contributed to website development using Next.js integrated with Sanity CMS.',
     period: '2018 - 2019',
     technologies: ['Figma', 'Photoshop', 'Sanity', 'Illustrator'],
   },
