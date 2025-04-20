@@ -18,7 +18,7 @@ export const About = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
     >
-      <SectionHeading heading="About Me" />
+      <SectionHeading heading='About Me' />
       <div
         style={{ fontFamily: 'Montserrat, sans-serif' }}
         className="-mt-5 max-w-2xl text-center leading-7"

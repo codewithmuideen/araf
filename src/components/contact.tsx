@@ -54,7 +54,7 @@ export const Contact = () => {
       }}
     >
       <SectionHeading
-        heading="Get In Touch"
+        heading='Get In Touch'
         content={
           <>
             Please contact me directly at{' '}
