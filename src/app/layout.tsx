@@ -33,10 +33,10 @@ const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang='en' suppressHydrationWarning>
       <body className={cn('min-h-screen font-sans', fonts)}>
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute='class'>
           <ActiveSectionProvider>
             {children}
-            <Toaster position="bottom-left" />
+            <Toaster position='bottom-left' />
           </ActiveSectionProvider>
         </ThemeProvider>
       </body>

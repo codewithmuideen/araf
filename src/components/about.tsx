@@ -12,8 +12,8 @@ export const About = () => {
   return (
     <motion.section
       ref={ref}
-      id="about"
-      className="my-10 flex w-full scroll-mt-28 flex-col items-center md:mb-20"
+      id='about'
+      className='my-10 flex w-full scroll-mt-28 flex-col items-center md:mb-20'
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -21,9 +21,9 @@ export const About = () => {
       <SectionHeading heading='About Me' />
       <div
         style={{ fontFamily: 'Montserrat, sans-serif' }}
-        className="-mt-5 max-w-2xl text-center leading-7"
+        className='-mt-5 max-w-2xl text-center leading-7'
       >
-        <p className="mb-4" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+        <p className='mb-4' style={{ fontFamily: 'Montserrat, sans-serif' }}>
           I&apos;m Moshood Arafat Olawale — a passionate Front-End Developer
           with over three years of hands-on experience in programming. My
           journey began back in high school when I discovered my love for
