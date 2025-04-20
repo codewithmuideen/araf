@@ -70,7 +70,6 @@ export const Contact = () => {
                 moshoodarafat41@gmail.com
               </Link>
             </Button>{' '}
-            or through this form.
           </>
         }
       />

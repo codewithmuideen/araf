@@ -9,7 +9,7 @@ export const Footer = () => {
       © {new Date().getFullYear()}{' '}
       <Button variant="link" className="text-muted-foreground p-0 font-medium">
         <a href="" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-          Moshood Arafat Olawale
+          Moshood Arafat
         </a>
       </Button>
       . All rights reserved.
