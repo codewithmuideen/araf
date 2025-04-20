@@ -63,15 +63,19 @@ export const Contact = () => {
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
               asChild
             >
-              <Link href="mailto:moshoodarafat41@gmail.com" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-              moshoodarafat41@gmail.com
+              <Link
+                href="mailto:moshoodarafat41@gmail.com"
+                style={{ fontFamily: 'Montserrat, sans-serif' }}
+              >
+                moshoodarafat41@gmail.com
               </Link>
             </Button>{' '}
             or through this form.
           </>
         }
       />
-      <form style={{ fontFamily: 'Montserrat, sans-serif' }}
+      <form
+        style={{ fontFamily: 'Montserrat, sans-serif' }}
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-col items-center gap-5"
       >
@@ -102,7 +106,8 @@ export const Contact = () => {
           )}
         </div>
         <div className="w-full max-w-xl">
-          <label style={{ fontFamily: 'Montserrat, sans-serif' }}
+          <label
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
             htmlFor="message"
             className={cn(
               'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
