@@ -9,7 +9,8 @@ const Toaster = ({ ...props }: ToasterProps) => {
   const { theme = 'system' } = useTheme();
 
   return (
-    <Sonner style={{ fontFamily: 'Montserrat, sans-serif' }}
+    <Sonner
+      style={{ fontFamily: 'Montserrat, sans-serif' }}
       theme={theme as ToasterProps['theme']}
       className="toaster group"
       toastOptions={{

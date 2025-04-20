@@ -46,15 +46,34 @@ export const Experience = () => {
                 }}
                 className={cn('space-y-3 opacity-0')}
               >
-                <div style={{ fontFamily: 'Montserrat, sans-serif' }} className="flex items-center gap-3">
-                  <div style={{ fontFamily: 'Montserrat, sans-serif' }} className="flex size-9 shrink-0 items-center justify-center rounded-full border">
+                <div
+                  style={{ fontFamily: 'Montserrat, sans-serif' }}
+                  className="flex items-center gap-3"
+                >
+                  <div
+                    style={{ fontFamily: 'Montserrat, sans-serif' }}
+                    className="flex size-9 shrink-0 items-center justify-center rounded-full border"
+                  >
                     <Icons.building className="size-5" />
                   </div>
-                  <span style={{ fontFamily: 'Montserrat, sans-serif' }} className="text-lg font-semibold">{company}</span>
+                  <span
+                    style={{ fontFamily: 'Montserrat, sans-serif' }}
+                    className="text-lg font-semibold"
+                  >
+                    {company}
+                  </span>
                 </div>
                 <div>
-                  <h3 style={{ fontFamily: 'Montserrat, sans-serif' }} className="text-xl font-medium">{title}</h3>
-                  <div style={{ fontFamily: 'Montserrat, sans-serif' }} className="mt-1 flex items-center gap-2 text-sm">
+                  <h3
+                    style={{ fontFamily: 'Montserrat, sans-serif' }}
+                    className="text-xl font-medium"
+                  >
+                    {title}
+                  </h3>
+                  <div
+                    style={{ fontFamily: 'Montserrat, sans-serif' }}
+                    className="mt-1 flex items-center gap-2 text-sm"
+                  >
                     <Icons.calendar className="size-4" />
                     <span>{period}</span>
                   </div>
@@ -62,7 +81,8 @@ export const Experience = () => {
                 <p className="text-muted-foreground">{description}</p>
                 <div className="flex flex-wrap gap-2">
                   {technologies.map((tech) => (
-                    <div style={{ fontFamily: 'Montserrat, sans-serif' }}
+                    <div
+                      style={{ fontFamily: 'Montserrat, sans-serif' }}
                       key={tech}
                       className="rounded-full border px-3 py-1 text-sm "
                     >

@@ -23,14 +23,16 @@ export const Header = () => {
     useActiveSection();
 
   return (
-    <motion.header style={{ fontFamily: 'Montserrat, sans-serif' }}
+    <motion.header
+      style={{ fontFamily: 'Montserrat, sans-serif' }}
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       className="sm:bg-background/80 sticky top-5 z-20 my-5 flex items-center gap-2 sm:top-10 sm:my-10 sm:rounded-full sm:border sm:px-2 sm:py-3 sm:backdrop-blur-sm"
     >
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
-          <Button style={{ fontFamily: 'Montserrat, sans-serif' }}
+          <Button
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
             variant="outline"
             size="lg"
             className="bg-background/80 backdrop-blur-sm sm:hidden"
@@ -47,7 +49,8 @@ export const Header = () => {
           <nav>
             <ul>
               {links.map(({ name, hash }) => (
-                <li style={{ fontFamily: 'Montserrat, sans-serif' }}
+                <li
+                  style={{ fontFamily: 'Montserrat, sans-serif' }}
                   onClick={() => setIsOpen(false)}
                   key={name}
                   className="border-muted-foreground/10 py-3 text-sm [&:not(:last-child)]:border-b"
@@ -61,12 +64,19 @@ export const Header = () => {
           </nav>
         </DialogContent>
       </Dialog>
-      <ThemeToggle style={{ fontFamily: 'Montserrat, sans-serif' }} className="bg-background/80 backdrop-blur-sm sm:hidden" />
-      <nav style={{ fontFamily: 'Montserrat, sans-serif' }} className="text-muted-foreground hidden text-sm sm:block">
+      <ThemeToggle
+        style={{ fontFamily: 'Montserrat, sans-serif' }}
+        className="bg-background/80 backdrop-blur-sm sm:hidden"
+      />
+      <nav
+        style={{ fontFamily: 'Montserrat, sans-serif' }}
+        className="text-muted-foreground hidden text-sm sm:block"
+      >
         <ul className="flex gap-5">
           {links.map(({ name, hash }) => (
             <li key={name}>
-              <Link style={{ fontFamily: 'Montserrat, sans-serif' }}
+              <Link
+                style={{ fontFamily: 'Montserrat, sans-serif' }}
                 href={hash}
                 className="hover:text-foreground relative px-4 py-2 transition-colors"
                 onClick={() => {
@@ -76,7 +86,8 @@ export const Header = () => {
               >
                 {name}
                 {name === activeSection && (
-                  <motion.span style={{ fontFamily: 'Montserrat, sans-serif' }}
+                  <motion.span
+                    style={{ fontFamily: 'Montserrat, sans-serif' }}
                     className="bg-muted absolute inset-0 -z-10 rounded-full"
                     layoutId="activeSection"
                     transition={{

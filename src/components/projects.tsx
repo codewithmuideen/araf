@@ -25,7 +25,7 @@ export const Projects = () => {
           once: true,
         }}
       >
-        <SectionHeading 
+        <SectionHeading
           heading="My Projects"
           content="Projects I worked on. Each of them containing its own case study."
         />

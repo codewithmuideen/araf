@@ -79,7 +79,10 @@ export const Contact = () => {
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-col items-center gap-5"
       >
-        <div style={{ fontFamily: 'Montserrat, sans-serif' }} className="w-full max-w-xl">
+        <div
+          style={{ fontFamily: 'Montserrat, sans-serif' }}
+          className="w-full max-w-xl"
+        >
           <label
             htmlFor="email"
             className={cn(

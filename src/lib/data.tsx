@@ -89,7 +89,13 @@ export const projectsData = [
     title: 'CustomDesignX',
     description:
       'At CustomDesignX, we believe that everyday items should reflect your personality, values, and creativity. That’s why we offer beautifully custom-designed mugs, socks, and greeting cards that are perfect for any occasion — from birthdays and weddings to corporate branding and personal keepsakes.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Wordpress'],
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      ' Nest.js',
+      'Tailwind',
+      'Wordpress',
+    ],
     links: {
       preview: 'https://customdesignx.com/',
       github: 'https://customdesignx.com/',
