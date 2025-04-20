@@ -38,8 +38,8 @@ export const Contact = () => {
   return (
     <motion.section
       ref={ref}
-      id="contact"
-      className="my-10 w-full scroll-mt-28 md:mb-20"
+      id='contact'
+      className='my-10 w-full scroll-mt-28 md:mb-20'
       initial={{
         opacity: 0,
       }}
@@ -59,12 +59,12 @@ export const Contact = () => {
           <>
             Please contact me directly at{' '}
             <Button
-              variant="link"
-              className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
+              variant='link'
+              className='text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors'
               asChild
             >
               <Link
-                href="mailto:moshoodarafat41@gmail.com"
+                href='mailto:moshoodarafat41@gmail.com'
                 style={{ fontFamily: 'Montserrat, sans-serif' }}
               >
                 moshoodarafat41@gmail.com
@@ -76,14 +76,14 @@ export const Contact = () => {
       <form
         style={{ fontFamily: 'Montserrat, sans-serif' }}
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col items-center gap-5"
+        className='flex flex-col items-center gap-5'
       >
         <div
           style={{ fontFamily: 'Montserrat, sans-serif' }}
-          className="w-full max-w-xl"
+          className='w-full max-w-xl'
         >
           <label
-            htmlFor="email"
+            htmlFor='email'
             className={cn(
               'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
               errors.email?.message && 'text-destructive'
@@ -92,9 +92,9 @@ export const Contact = () => {
             Email
           </label>
           <input
-            type="email"
-            id="email"
-            placeholder="hello@gmail.com"
+            type='email'
+            id='email'
+            placeholder='hello@gmail.com'
             {...register('email')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
@@ -102,15 +102,15 @@ export const Contact = () => {
             )}
           />
           {errors.email?.message && (
-            <p className="text-destructive mt-1 text-sm">
+            <p className='text-destructive mt-1 text-sm'>
               {errors.email?.message}
             </p>
           )}
         </div>
-        <div className="w-full max-w-xl">
+        <div className='w-full max-w-xl'>
           <label
             style={{ fontFamily: 'Montserrat, sans-serif' }}
-            htmlFor="message"
+            htmlFor='message'
             className={cn(
               'text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70',
               errors.message?.message && 'text-destructive'
@@ -119,7 +119,7 @@ export const Contact = () => {
             Message
           </label>
           <textarea
-            id="message"
+            id='message'
             placeholder="Hello! What's up?"
             {...register('message')}
             className={cn(
@@ -128,13 +128,13 @@ export const Contact = () => {
             )}
           ></textarea>
           {errors.message?.message && (
-            <p className="text-destructive mt-1 text-sm">
+            <p className='text-destructive mt-1 text-sm'>
               {errors.message?.message}
             </p>
           )}
         </div>
-        <Button size="lg" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-          Submit <Icons.arrowRight className="ml-2 size-4" />
+        <Button size='lg' style={{ fontFamily: 'Montserrat, sans-serif' }}>
+          Submit <Icons.arrowRight className='ml-2 size-4' />
         </Button>
       </form>
     </motion.section>
